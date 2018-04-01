@@ -211,7 +211,7 @@ __*The set of variables that were estimated from these signals are: *__
 - Angle between Average of Body Angular Velocity Jerk and Average of Gravity
 
 	- `angle(tbodyGyroJerkMean,gravityMean)`
-<br><br>
+<br>
 - Angle between X, Y and Z axis and Average of Gravity
 
 	- `angle(x,gravityMean)`                
