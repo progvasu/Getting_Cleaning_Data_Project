@@ -87,9 +87,6 @@ col_names <- names(dataset)
 # not changing 'f' and 't' to 'frequency' and 'time' since they are 
 # obvious and changing them will make column names too long
 
-# removing 'body' from column names since it is reduntant
-col_names <- gsub("body", "", col_names)
-
 # converting to lower camel case
 col_names <- gsub("acc", "Acc", col_names)
 col_names <- gsub("mag", "Magn", col_names)
